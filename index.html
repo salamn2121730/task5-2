@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  
+
+  <div class="slider">
+
+    <div class="mySlides  ">
+
+      <img src="./images/pinnk4.jpg">
+      <div class="text">1</div>
+    </div>
+
+    <div class="mySlides ">
+
+      <img src="./images/pink1.jpg">
+      <div class="text">2</div>
+    </div>
+
+    <div class="mySlides ">
+
+      <img src="./images/pink2.jpg">
+      <div class="text">3</div>
+    </div>
+    <div class="mySlides ">
+
+      <img src="./images/pink1.jpg">
+      <div class="text">4</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  
+
+  <div class="circle">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
